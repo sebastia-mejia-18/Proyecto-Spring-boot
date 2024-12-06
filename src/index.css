@@ -5,16 +5,15 @@
 }
 
 body {
-    font-family: "Arial", sans-serif;
-    background: linear-gradient(100deg, #005a9e, #ffffff);
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
-  }
-  
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(100deg, #005a9e, #ffffff);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
 
 .container {
   background-color: #e6eef5;
@@ -149,7 +148,7 @@ button:active {
   box-shadow: var(--box-shadow-dark);
   width: 600px;
   max-width: 1000px;
-   margin: 0 auto;
+  margin: 0 auto;
   text-align: center;
   box-sizing: border-box;
 }

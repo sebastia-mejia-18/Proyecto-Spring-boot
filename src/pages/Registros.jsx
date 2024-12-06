@@ -2,7 +2,6 @@ import Headers from "../components/Headers";
 
 const Registros = () => {
   return ( 
-    
     <section className="registro-container">
       <div>
       <Headers/>
