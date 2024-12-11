@@ -11,6 +11,7 @@ const Login = () => {
       .then((response) => response.json())
       .then((data) => setUsuarios(data));
   }
+  
     return (
     <form className="container">
       <div>
@@ -20,9 +21,11 @@ const Login = () => {
         <h1>LOGIN</h1>
       </div>
 
+
       <div className="seccion-img">
         <img src="#" alt="" />
       </div>
+      
 
       <div className="correo" >
         <label htmlFor="">Correo</label>
